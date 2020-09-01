@@ -1,2 +1,3 @@
 # PS_Algorithm
-Source Code of BOJ Problems
+
+[![Solved.ac 프로필](http://mazassumnida.wtf/api/generate_badge?boj=pch6828)](https://solved.ac/pch6828)
