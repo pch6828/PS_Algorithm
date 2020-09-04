@@ -1,5 +1,5 @@
 # PS_Algorithm
-[![Solved.ac 프로필](http://mazassumnida.wtf/api/generate_badge?boj=pch6828)](https://solved.ac/pch6828)
+[![Solved.ac 프로필](http://mazassumnida.wtf/api/generate_badge?boj=pch6828)](https://solved.ac/profile/pch6828)
 
 ## Awards
 - 2018 HCPC Beginner Division 2위 (팀명: 탈로하)
