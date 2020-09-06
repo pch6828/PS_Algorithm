@@ -2,7 +2,7 @@
 [![Solved.ac 프로필](http://mazassumnida.wtf/api/generate_badge?boj=pch6828)](https://solved.ac/profile/pch6828)
 
 ## Club
-- 한양대학교 알고리즘 동아리 ALOHA 학술부장
+- 한양대학교 알고리즘 동아리 ALOHA 학술부장, 2019
 
 ## Awards
 - 2018 HCPC Beginner Division 2위 (팀명: 탈로하)
