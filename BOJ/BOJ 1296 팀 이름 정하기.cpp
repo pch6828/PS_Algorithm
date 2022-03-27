@@ -55,7 +55,7 @@ int main(void)
     cin >> name >> n;
     for (auto c : name)
     {
-        if (c == ':')
+        if (c == 'L')
         {
             l++;
         }
