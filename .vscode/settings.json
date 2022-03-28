@@ -8,6 +8,8 @@
     "string": "cpp",
     "queue": "cpp",
     "xiosbase": "cpp",
-    "utility": "cpp"
+    "utility": "cpp",
+    "vector": "cpp",
+    "fstream": "cpp"
   }
 }
