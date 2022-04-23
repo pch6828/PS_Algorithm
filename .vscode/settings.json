@@ -10,6 +10,11 @@
     "xiosbase": "cpp",
     "utility": "cpp",
     "vector": "cpp",
-    "fstream": "cpp"
+    "fstream": "cpp",
+    "functional": "cpp",
+    "numeric": "cpp",
+    "xmemory": "cpp",
+    "xutility": "cpp",
+    "algorithm": "cpp"
   }
 }
