@@ -15,6 +15,14 @@
     "numeric": "cpp",
     "xmemory": "cpp",
     "xutility": "cpp",
-    "algorithm": "cpp"
+    "algorithm": "cpp",
+    "cmath": "cpp",
+    "list": "cpp",
+    "map": "cpp",
+    "tuple": "cpp",
+    "type_traits": "cpp",
+    "xhash": "cpp",
+    "xstring": "cpp",
+    "xtree": "cpp"
   }
 }
