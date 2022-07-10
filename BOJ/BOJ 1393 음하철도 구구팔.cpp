@@ -62,6 +62,14 @@ int main(void)
         dx /= g;
         dy /= g;
     }
+    else if (dx == 0)
+    {
+        dy = 1;
+    }
+    else
+    {
+        dx = 1;
+    }
 
     do
     {
