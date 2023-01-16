@@ -32,3 +32,48 @@ public:
         return merge(intervals);
     }
 };
+
+// second solution
+class Solution2 {
+public:
+    vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) {
+        vector<vector<int>>ans;
+        bool inserted = false;
+
+        for(auto& interval : intervals){
+            if(!inserted){
+                if(newInterval[0]<interval[0]){
+                    if(newInterval[1]<interval[0]){
+                        ans.push_back(newInterval);
+                        ans.push_back(interval);
+                    }else{
+                        newInterval[1] = max(newInterval[1], interval[1]);
+                        ans.push_back(newInterval);
+                    }
+                    inserted = true;
+                }else{
+                    if(newInterval[0]>interval[1]){
+                        ans.push_back(interval);
+                    }else{
+                        interval[1] = max(interval[1], newInterval[1]);
+                        ans.push_back(interval);
+                        inserted = true;
+                    }
+                }
+            }else{
+                auto& prevInterval = ans.back();
+                if(prevInterval[1]>=interval[0]){
+                    prevInterval[1] = max(prevInterval[1], interval[1]);
+                }else{
+                    ans.push_back(interval);
+                }
+            }
+        }
+
+        if(!inserted){
+            ans.push_back(newInterval);
+        }
+
+        return ans;
+    }
+};
